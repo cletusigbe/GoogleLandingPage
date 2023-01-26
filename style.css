@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+header{
+  display: flex;
+  height:  60px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.logo-text{
+  font-size: 20px;
+  color: blueviolet;
+  font-weight: 700;
+}
+
+.nav-item{
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main{
+  background-color: rgb(224, 212, 235);
+  height: calc(100vh - 60px);
+  display: flex;
+}
+
+.sect{
+  /* border: 1px dashed blue; */
+  width: 50vw;
+}
+
+.left{
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+
+.inner-left-sect{
+  width: 500px;
+}
+
+h5{
+  color: rgb(142, 139, 139);
+  text-transform: uppercase;
+}
+
+.left-text{
+  font-size: 30px;
+  font-weight: 500;
+  color: rgb(7, 7, 88);
+}
+
+span{
+  font-weight: 600;
+  color: rgb(70, 4, 114);
+}
+
+.btn{
+  /* border: 1px solid; */
+  padding: 10px 15px;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: 10px;
+  box-shadow: 4px 4px 5px gray; 
+}
+
+.first-link{
+  background-color: blueviolet;
+  color: #FFFFFF;
+}
+
+.second-link{
+  background-color: white;
+  color: #000000;
+}
+
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inner-right-sect{
+  width: 350px;
+  height: 350px;
+  /* border: 1px solid; */
+  overflow: hidden;
+  border-radius: 50%;
+  /* background-image: url(./cletus-igbe.jpg);
+  background-size: cover;
+  background-repeat: no-repeat; */
+  
+}
